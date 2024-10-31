@@ -1,0 +1,7 @@
+CREATE TABLE Tarefas (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nome TEXT NOT NULL,
+    custo REAL NOT NULL,
+    data_limite TEXT NOT NULL,
+    ordem INTEGER NOT NULL UNIQUE
+);
